@@ -59,7 +59,7 @@
                                     <Insets left="59.0" top="5.0" />
                                  </VBox.margin>
                               </Label>
-                              <TextField prefHeight="50.0" prefWidth="758.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px;">
+                              <TextField fx:id="txtUsername" prefHeight="50.0" prefWidth="758.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px;">
                                  <VBox.margin>
                                     <Insets bottom="7.0" left="58.0" right="58.0" top="14.0" />
                                  </VBox.margin>
@@ -80,7 +80,7 @@
                                     <Insets bottom="10.0" left="50.0" top="5.0" />
                                  </VBox.margin>
                               </Label>
-                              <PasswordField prefHeight="50.0" prefWidth="896.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px;">
+                              <PasswordField fx:id="txtPassword" prefHeight="50.0" prefWidth="896.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px;">
                                  <VBox.margin>
                                     <Insets bottom="7.0" left="58.0" right="58.0" top="14.0" />
                                  </VBox.margin>
@@ -91,7 +91,7 @@
                   </HBox>
                   <HBox prefHeight="150.0" prefWidth="896.0">
                      <children>
-                        <Button mnemonicParsing="false" onAction="#btnGoDashBoardPageOnAction" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-background-color: #393937;" text="Sign In" textFill="WHITE">
+                        <Button fx:id="btnLogin" mnemonicParsing="false" onAction="#btnGoDashBoardPageOnAction" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-background-color: #393937;" text="Sign In" textFill="WHITE">
                            <font>
                               <Font size="30.0" />
                            </font>

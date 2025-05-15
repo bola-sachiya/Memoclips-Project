@@ -7,5 +7,6 @@ public class CustomerController {
     public Button btnSave;
 
     public void btnSaveOnAction(ActionEvent actionEvent) {
+
     }
 }

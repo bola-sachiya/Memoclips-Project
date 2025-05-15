@@ -38,7 +38,7 @@
                         <Insets bottom="10.0" left="10.0" right="10.0" top="20.0" />
                     </VBox.margin>
                     <children>
-                        <Label prefHeight="56.0" prefWidth="197.0" text="Customer Id">
+                        <Label prefHeight="56.0" prefWidth="197.0" text="Videographer Id">
                             <font>
                                 <Font name="Arial Bold" size="16.0" />
                             </font></Label>
@@ -50,23 +50,23 @@
                 </HBox>
                 <HBox prefHeight="18.0" prefWidth="414.0">
                     <children>
+                        <Label text="Videographer Id">
+                            <HBox.margin>
+                                <Insets />
+                            </HBox.margin>
+                        </Label>
+                    </children>
+                </HBox>
+                <TextField fx:id="txtName" prefHeight="30.0" prefWidth="414.0" promptText="VID001">
+                    <VBox.margin>
+                        <Insets />
+                    </VBox.margin>
+                </TextField>
+                <HBox prefHeight="18.0" prefWidth="414.0">
+                    <children>
                         <Label text="Name">
                             <HBox.margin>
-                                <Insets left="10.0" />
-                            </HBox.margin>
-                        </Label>
-                    </children>
-                </HBox>
-                <TextField fx:id="txtName" prefHeight="30.0" prefWidth="414.0" promptText="sachintha">
-                    <VBox.margin>
-                        <Insets />
-                    </VBox.margin>
-                </TextField>
-                <HBox prefHeight="18.0" prefWidth="414.0">
-                    <children>
-                        <Label text="Customer Id">
-                            <HBox.margin>
-                                <Insets left="5.0" />
+                                <Insets />
                             </HBox.margin>
                         </Label>
                     </children>
@@ -74,16 +74,16 @@
                         <Insets top="20.0" />
                     </VBox.margin>
                 </HBox>
-                <TextField fx:id="txtContact" prefHeight="30.0" prefWidth="414.0" promptText="C001">
+                <TextField fx:id="txtContact" prefHeight="30.0" prefWidth="414.0" promptText="Sachintha">
                     <VBox.margin>
                         <Insets />
                     </VBox.margin>
                 </TextField>
                 <HBox prefHeight="18.0" prefWidth="414.0">
                     <children>
-                        <Label text="Address">
+                        <Label text="Contact">
                             <HBox.margin>
-                                <Insets left="10.0" />
+                                <Insets />
                             </HBox.margin>
                         </Label>
                     </children>
@@ -91,63 +91,47 @@
                         <Insets top="20.0" />
                     </VBox.margin>
                 </HBox>
-                <TextField fx:id="txtAddress" prefHeight="30.0" prefWidth="414.0" promptText="345/2 Matara road,galle">
+                <TextField fx:id="txtAddress" prefHeight="30.0" prefWidth="414.0" promptText="0777777777">
                     <VBox.margin>
                         <Insets />
                     </VBox.margin>
                 </TextField>
-            <Label text="Email">
-               <opaqueInsets>
-                  <Insets top="-5.0" />
-               </opaqueInsets>
-               <VBox.margin>
-                  <Insets left="11.0" top="13.0" />
-               </VBox.margin>
-            </Label>
-            <TextField fx:id="txtAddress1" prefHeight="30.0" prefWidth="414.0" promptText="aaaa@gmail.com">
-               <opaqueInsets>
-                  <Insets top="1.0" />
-               </opaqueInsets>
-               <VBox.margin>
-                  <Insets top="1.0" />
-               </VBox.margin>
-            </TextField>
-            <Label text="Admin Id">
-               <VBox.margin>
-                  <Insets left="7.0" top="8.0" />
-               </VBox.margin>
-            </Label>
-            <TextField fx:id="txtName1" prefHeight="30.0" prefWidth="414.0" promptText="A001">
-               <VBox.margin>
-                  <Insets top="6.0" />
-               </VBox.margin>
-            </TextField>
-            <Label text="Contact">
-               <VBox.margin>
-                  <Insets top="13.0" />
-               </VBox.margin>
-            </Label>
-            <TextField prefHeight="30.0" prefWidth="414.0" promptText="0777777777" />
-            <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="327.0" style="-fx-background-color: #2ed573;" text="Save">
-               <VBox.margin>
-                  <Insets left="40.0" top="50.0" />
-               </VBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="327.0" style="-fx-background-color: #70a1ff;" text="Update">
-               <VBox.margin>
-                  <Insets left="40.0" top="50.0" />
-               </VBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="327.0" style="-fx-background-color: #ff4757;" text="Delete">
-               <VBox.margin>
-                  <Insets left="40.0" top="50.0" />
-               </VBox.margin>
-            </Button>
-            <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="327.0" style="-fx-background-color: #ff7f50;" text="Reset">
-               <VBox.margin>
-                  <Insets left="40.0" top="50.0" />
-               </VBox.margin>
-            </Button>
+                <Label text="Availability">
+                    <opaqueInsets>
+                        <Insets top="-5.0" />
+                    </opaqueInsets>
+                    <VBox.margin>
+                        <Insets top="13.0" />
+                    </VBox.margin>
+                </Label>
+                <TextField fx:id="txtAddress1" prefHeight="30.0" prefWidth="414.0" promptText="Available">
+                    <opaqueInsets>
+                        <Insets top="1.0" />
+                    </opaqueInsets>
+                    <VBox.margin>
+                        <Insets top="1.0" />
+                    </VBox.margin>
+                </TextField>
+                <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="327.0" style="-fx-background-color: #2ed573;" text="Save">
+                    <VBox.margin>
+                        <Insets left="40.0" top="50.0" />
+                    </VBox.margin>
+                </Button>
+                <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="327.0" style="-fx-background-color: #70a1ff;" text="Update">
+                    <VBox.margin>
+                        <Insets left="40.0" top="50.0" />
+                    </VBox.margin>
+                </Button>
+                <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="327.0" style="-fx-background-color: #ff4757;" text="Delete">
+                    <VBox.margin>
+                        <Insets left="40.0" top="50.0" />
+                    </VBox.margin>
+                </Button>
+                <Button mnemonicParsing="false" prefHeight="26.0" prefWidth="327.0" style="-fx-background-color: #ff7f50;" text="Reset">
+                    <VBox.margin>
+                        <Insets left="40.0" top="50.0" />
+                    </VBox.margin>
+                </Button>
             </children>
         </VBox>
         <VBox layoutX="452.8" layoutY="24.0" prefHeight="1000.0" prefWidth="14.0" style="-fx-background-color: #495057;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="453.0" AnchorPane.topAnchor="0.0" />
@@ -157,16 +141,14 @@
                     <children>
                         <TableView fx:id="tblCustomer" prefHeight="434.0" prefWidth="1072.0">
                             <columns>
-                                <TableColumn fx:id="colId" prefWidth="75.0" text="Customer Id" />
+                                <TableColumn fx:id="colId" prefWidth="75.0" text="Videographer Id" />
                                 <TableColumn fx:id="colName" prefWidth="75.0" text="Name" />
                                 <TableColumn fx:id="colContact" prefWidth="75.0" text="Contact" />
-                                <TableColumn fx:id="colAddress" prefWidth="75.0" text="Address" />
-                        <TableColumn prefWidth="75.0" text="Email" />
-                        <TableColumn prefWidth="75.0" text="Admin Id" />
+                                <TableColumn fx:id="colAddress" prefWidth="75.0" text="Availability" />
                             </columns>
-                     <columnResizePolicy>
-                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
-                     </columnResizePolicy>
+                            <columnResizePolicy>
+                                <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                            </columnResizePolicy>
                         </TableView>
                     </children>
                 </VBox>
@@ -176,13 +158,13 @@
             <children>
                 <BorderPane prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
                     <center>
-                        <Label text="Customer Details" BorderPane.alignment="CENTER">
+                        <Label text="Videographer Details" BorderPane.alignment="CENTER">
                             <font>
                                 <Font name="Arial" size="20.0" />
                             </font>
-                     <BorderPane.margin>
-                        <Insets left="177.0" />
-                     </BorderPane.margin>
+                            <BorderPane.margin>
+                                <Insets left="177.0" />
+                            </BorderPane.margin>
                         </Label>
                     </center>
                     <right>

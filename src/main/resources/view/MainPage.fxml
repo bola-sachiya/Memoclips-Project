@@ -6,90 +6,96 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="lk.ijse.memoclips.controller.MainPageController">
    <children>
       <HBox layoutX="195.0" layoutY="200.0" prefHeight="100.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <VBox prefHeight="1000.0" prefWidth="600.0" style="-fx-background-color: #969bad;">
                <children>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="219.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Admin">
+                  <Button mnemonicParsing="false" onAction="#btnAdminOnAction" prefHeight="42.0" prefWidth="219.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Admin">
                      <VBox.margin>
                         <Insets bottom="27.0" left="39.0" right="8.0" top="13.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="222.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Customer">
+                  <Button mnemonicParsing="false" onAction="#btnCustomerOnAction" prefHeight="42.0" prefWidth="222.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Customer">
                      <VBox.margin>
                         <Insets bottom="27.0" left="39.0" right="8.0" top="13.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Album Details">
+                  <Button mnemonicParsing="false" onAction="#btnAlbumDetailsOnAction" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Album Details">
                      <VBox.margin>
                         <Insets bottom="27.0" left="39.0" right="8.0" top="13.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Assistant">
+                  <Button mnemonicParsing="false" onAction="#btnAssistantOnAction" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Assistant">
                      <VBox.margin>
                         <Insets bottom="27.0" left="39.0" right="8.0" top="13.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Bookings">
+                  <Button mnemonicParsing="false" onAction="#btnBookingsOnAction" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Bookings">
                      <VBox.margin>
                         <Insets bottom="27.0" left="39.0" right="8.0" top="13.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Invoice">
+                  <Button mnemonicParsing="false" onAction="#btnInvoiceOnAction" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Invoice">
                      <VBox.margin>
                         <Insets bottom="27.0" left="39.0" right="8.0" top="13.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Item">
+                  <Button mnemonicParsing="false" onAction="#btnItemOnAction" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Item">
                      <VBox.margin>
                         <Insets bottom="27.0" left="39.0" right="8.0" top="13.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Payment">
+                  <Button mnemonicParsing="false" onAction="#btnpaymentOnAction" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Payment">
                      <VBox.margin>
                         <Insets bottom="27.0" left="39.0" right="8.0" top="13.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Photo Session">
+                  <Button mnemonicParsing="false" onAction="#btnPhotoSessionOnAction" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Photo Session">
                      <VBox.margin>
                         <Insets bottom="27.0" left="39.0" right="8.0" top="13.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Photo Storage">
+                  <Button mnemonicParsing="false" onAction="#btnPhotoStorageOnAction" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Photo Storage">
                      <VBox.margin>
                         <Insets bottom="27.0" left="39.0" right="8.0" top="13.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="photo Album">
+                  <Button mnemonicParsing="false" onAction="#btnphotoAlbumOnAction" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="photo Album">
                      <VBox.margin>
                         <Insets bottom="27.0" left="39.0" right="8.0" top="13.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="photographer">
+                  <Button mnemonicParsing="false" onAction="#btnPhotographerOnAction" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="photographer">
                      <VBox.margin>
                         <Insets bottom="27.0" left="39.0" right="8.0" top="13.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Supplier">
+                  <Button mnemonicParsing="false" onAction="#btnSupplierOnAction" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Supplier">
                      <VBox.margin>
                         <Insets bottom="27.0" left="39.0" right="8.0" top="13.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Video Session">
+                  <Button mnemonicParsing="false" onAction="#btnVideoSessionOnAction" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Video Session">
                      <VBox.margin>
                         <Insets bottom="27.0" left="39.0" right="8.0" top="13.0" />
                      </VBox.margin>
                   </Button>
-                  <Button mnemonicParsing="false" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Videographer">
+                  <Button mnemonicParsing="false" onAction="#btnVideographerOnAction" prefHeight="42.0" prefWidth="221.0" style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-border-color: #e1d9ea;" text="Videographer">
                      <VBox.margin>
                         <Insets bottom="27.0" left="39.0" right="8.0" top="13.0" />
                      </VBox.margin>
                   </Button>
                </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets top="-8.0" />
+               </HBox.margin>
             </VBox>
-            <AnchorPane prefHeight="1000.0" prefWidth="1600.0" style="-fx-background-color: #e1d9ea;" />
+            <AnchorPane fx:id="ancDashboard" prefHeight="1000.0" prefWidth="1600.0" style="-fx-background-color: #e1d9ea;" />
          </children>
       </HBox>
    </children>
